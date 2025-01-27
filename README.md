@@ -34,7 +34,8 @@ Only for LightGBM;
 We are taking previously saved `.pkl` files (i.e., our saved model), UNPICKLE it, and do inference: 
 
 here's an example:
-```python predict.py \
+```
+python predict.py \
     --input_path data/hidden_test.csv \
     --model_path model/best_model.pkl \
     --scaler_path model/scaler.pkl 
@@ -66,4 +67,4 @@ Here's the data formatted as a markdown table:
 
 we can see , that features `6` and `7` are the most important ones (which is a little bit predictable), other features are useful but not decisive, yet, it is preferable to have as much features as possible to train our model;
 
-
+Have a nice day!
